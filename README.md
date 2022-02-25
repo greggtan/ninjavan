@@ -2,9 +2,9 @@
 
 A Quasar Framework app
 
-##1. **For android end-users, download the apk in our repo!**
+1. **For android end-users, download the apk in our repo!**
 
-##2. To run our code: Install the dependencies
+2. **To run our code: Install the dependencies**
 ```bash
 npm install
 ```
