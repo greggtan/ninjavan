@@ -1,0 +1,41 @@
+body {
+    //   background-color: rgb(249, 249, 249);
+      font-family: 'Poppins', sans-serif;
+     
+        // background-color: rgb(249, 249, 249);
+        // font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    // background: rgb(83, 109, 255);
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #445061;
+}
+
+.text-end{
+    text-align: end;
+}
+
+
+
+.ninja-red{
+    background:#c52133
+}
+
+.text-ninja-red{
+    color:#c52133
+}
+
+.dark-bg{
+    background:#3E5463;
+}
