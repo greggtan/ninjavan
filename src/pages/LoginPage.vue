@@ -3,7 +3,8 @@
   
 
       <div class="text-center flex justify-center" style="position:fixed; top:10vh;width:100%">
-        <img src="~assets/ninja.svg" alt="" style="width:70vw">
+        <div class="" style="font-size:12vw"><span style="color:#C10015; font-weight:600">Ninja</span>Truck</div>
+
 
     </div>
           
@@ -77,13 +78,7 @@
       </div>
           
 
-
-
-
-
-
-
-      <div class=" absolute-bottom" style="">
+      <div class=" " style="position:absolute;bottom:0px">
             <Lottie
                 :options="defaultOptions"
                 v-on:animCreated="handleAnimation"

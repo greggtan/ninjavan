@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-md">
-      <div class="q-mb-sm" style="font-size:6vw; font-weight:500">25/2/2022 1:30pm</div>
+      <div class="q-mb-sm" style="font-size:6vw; font-weight:500">05/04/2022 8:30am</div>
       <div class="text-grey">I have received:</div>
      <q-input outlined v-model="text" dense/>
 
@@ -42,7 +42,7 @@
         </div>
 
         <q-card-actions align="right">
-          <q-btn flat label="close" color="green" to="/deliveryFinish" />
+          <q-btn flat label="close" color="green" @click="handleFinish()"  />
 
         </q-card-actions>
       </q-card>
@@ -72,6 +72,10 @@ export default {
     handleAnimation: function (anim) {
         this.anim = anim;
     },
+    handleFinish(){
+      this.$store.state.completed = true
+      this.$router.push("/deliveryFinish")
+    }
   }
   
 }

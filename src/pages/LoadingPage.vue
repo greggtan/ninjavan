@@ -1,12 +1,16 @@
 <template>
   <div class="">
 
-    <vue-text-transition :show="showTitle" name="test" :interval="10" class=" text-center" style="width:100%;position:fixed;bottom:20vh;font-size:6vw; ">Developed by Team Kaizen</vue-text-transition>
+    <vue-text-transition :show="showTitle" name="test" :interval="10" class=" text-center" style="width:100%;position:fixed;bottom:20vh;font-size:6vw; ">Developed by G5 Team 7</vue-text-transition>
 
     <div class="text-center flex justify-center" style="position:fixed; top:20vh;width:100%">
-        <img src="~assets/ninja.svg" alt="" style="width:70vw">
+        <!-- <img src="~assets/ninja.svg" alt="" style="width:70vw"> -->
+        <div class="" style="font-size:13vw"><span style="color:#C10015; font-weight:600">Ninja</span>Truck</div>
 
     </div>
+
+      
+
 
       <div class=" flex justify-center" style="height:100vh;width:100vw ">
          
@@ -14,7 +18,7 @@
             <Lottie
                 :options="defaultOptions"
                 v-on:animCreated="handleAnimation"
-                style="width:50vw"
+                style="width:75vw"
               />
           
           
@@ -25,7 +29,7 @@
 
 <script>
 import Lottie from "vue-lottie";
-import * as animationData from './parcel2.json';
+import * as animationData from './box.json';
 import VueTextTransition from 'vue-text-transition'
 
 export default {
@@ -52,7 +56,7 @@ export default {
 
       handleDirect(){
         
-        setTimeout( ()=>{this.$router.push('/login')}, 1800);
+        setTimeout( ()=>{this.$router.push('/login')}, 1400);
       }
     },
 

@@ -193,7 +193,7 @@
 
       <q-step
         :name="3"
-        :title="`Deliver Parcels (0/24)`"
+        :title="`Deliver Parcels (0/9)`"
         icon="local_shipping"
         
       >
@@ -260,7 +260,7 @@
             style="width:70vw"
         />
 
-        <div class="" v-if="currentPackages==19">
+        <div class="" v-if="currentPackages==7">
           <div class="text-center " style="font-size:3.3vw">
           Your packages are now <span style="color:green">80%</span> ready! 
           </div>
@@ -357,8 +357,8 @@ export default {
   data () {
     return {
       step: 1,
-      currentPackages:15,
-      totalPackages:24,
+      currentPackages:4,
+      totalPackages:9,
       estimatedArrivalTime:30,
       packagesProgress:0,
       duration:300,
@@ -392,7 +392,7 @@ export default {
           distance:'1.53km',
           cod:false,
           time:'9AM - 10PM',
-          location:'11 Lor 3 Toa Payoh Level 3 Unit 10 (319579)',
+          location:'2 Sembawang Hills Drive (575881)',
           name:'Angel',
           noOfPackages:1,
           packageID: 'SGNJVAPPDELTRG5'
@@ -402,28 +402,28 @@ export default {
           distance:'1.55km',
           cod:true,
           time:'9AM - 10PM',
-          location:'122 Lor 2 Toa Payoh Level 2 Unit (310122)',
+          location:'122 Jalan Leban (575827)',
           name:'Monica',
           noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
+          packageID: 'SGNJVAPPDELTRG7'
         },
         {
           id:3,
           distance:'1.50km',
           cod:false,
           time:'9AM - 10PM',
-          location:'130 Lor 1 Toa Payoh Level 5 Unit 11 (311128)',
-          name:'Monica',
+          location:'130 Jalan Leban (575849)',
+          name:'Chow',
           noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
+          packageID: 'SGNJVAPPDELTRG8'
         },
         {
           id:4,
           distance:'1.62km',
           cod:true,
           time:'9AM - 10PM',
-          location:'15 Lor 3 Toa Payoh Level 6 Unit 3 (319580)',
-          name:'Angel',
+          location:'15 Jalan Kuras (575826)',
+          name:'Gordon',
           noOfPackages:1,
           packageID: 'SGNJVAPPDELTRG5'
         },
@@ -432,8 +432,8 @@ export default {
           distance:'1.59km',
           cod:false,
           time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
+          location:'99B Jalan Kuras (575810)',
+          name:'Lisa',
           noOfPackages:2,
           packageID: 'SGNJVAPPDELTRG6'
         },
@@ -477,156 +477,6 @@ export default {
           noOfPackages:2,
           packageID: 'SGNJVAPPDELTRG6'
         },
-        {
-          id:10,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Angel',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:11,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:12,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:13,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Angel',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:14,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:15,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:16,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Angel',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:17,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:18,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:19,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:20,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:21,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:22,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:23,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:24,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
         
 
 
@@ -654,37 +504,38 @@ export default {
     },
     increment(){
       
-        this.packagesProgress += 0.05
+        this.packagesProgress += 0.1
         this.currentPackages ++;
     },
     handleClosePopup(){
-      if (this.currentPackages ==19){
+      if (this.currentPackages ==7){
         setTimeout( ()=>{
           this.increment()
-            this.estimatedArrivalTime -= 3
+            this.estimatedArrivalTime -= 6
         }, 2000);
 
         setTimeout( ()=>{
           this.increment()
-            this.estimatedArrivalTime -= 3
+            this.estimatedArrivalTime -= 6
+            this.deliveryPopup = true
         }, 4000);
 
-        setTimeout( ()=>{
-          this.increment()
-            this.estimatedArrivalTime -= 3
-        }, 6000);
-        setTimeout( ()=>{
-          this.increment()
-            this.estimatedArrivalTime -= 3
-        }, 8000);
+        // setTimeout( ()=>{
+        //   this.increment()
+        //     this.estimatedArrivalTime -= 3
+        // }, 6000);
+        // setTimeout( ()=>{
+        //   this.increment()
+        //     this.estimatedArrivalTime -= 3
+        // }, 8000);
 
-        setTimeout( ()=>{
-          this.increment()
-            this.deliveryPopup = true
-        }, 10000);
+        // setTimeout( ()=>{
+        //   this.increment()
+        //     this.deliveryPopup = true
+        // }, 10000);
       }
       
-      if (this.currentPackages == 24){
+      if (this.currentPackages == 9){
         this.step = 2
         this.deliveryPopup = false
       }
@@ -715,26 +566,21 @@ export default {
     
       setTimeout( ()=>{
         this.increment()
-          this.estimatedArrivalTime -= 4
+          this.estimatedArrivalTime -= 6
       }, 2000);
     
       setTimeout( ()=>{
         this.increment()
-          this.estimatedArrivalTime -= 4
+          this.estimatedArrivalTime -= 6
       }, 4000);
-
-      setTimeout( ()=>{
-        this.increment()
-          this.estimatedArrivalTime -= 4
-      }, 6000);
 
       
 
       setTimeout( ()=>{
         this.increment()
           this.deliveryPopup = true
-          this.estimatedArrivalTime -= 4
-      }, 8000);
+          this.estimatedArrivalTime -= 6
+      }, 6000);
 
 
 

@@ -21,15 +21,15 @@
         </div>
         
         
-        <div class="" style="font-size:4.5vw; font-weight:500">Address: <span style="font-weight:300">11 Lor 3 Toa Payoh Level 3 Unit 10 </span></div>
-        <div class="q-mt-sm" style="font-size:4.5vw; font-weight:500">Postal: <span style="font-weight:300">319579</span></div>
+        <div class="" style="font-size:4.5vw; font-weight:500">Address: <span style="font-weight:300">2 Sembawang Hills Drive  </span></div>
+        <div class="q-mt-sm" style="font-size:4.5vw; font-weight:500">Postal: <span style="font-weight:300">575881</span></div>
         <div class="q-mt-sm" style="font-size:4.5vw; font-weight:500">Message: <span style="font-weight:300">Please Call Before Delivery!</span></div>
         
 
         <div class="text-grey q-mt-md" style="font-size:4vw; font-weight:500">Shipper</div>
         <div class="flex items-center q-gutter-x-md" style="font-size:4.5vw"> 
           <img src="~assets/ninja-circle.png" alt="" style="width:60px">
-          <div class="" style="font-weight:500">Ninjavan</div>  
+          <div class="" style="font-weight:500">NinjaTruck</div>  
         </div>
 
         <div class="flex no-wrap justify-around items-center q-gutter-x-sm q-mt-md">

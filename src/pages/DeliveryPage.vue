@@ -75,7 +75,7 @@
                     </q-item-section>
 
                     <q-item-section>
-                      Cluster 1 (20 Left)
+                      Cluster 1 ({{toDeliver.length}} Left)
                     </q-item-section>
                   </template>
                   
@@ -287,7 +287,7 @@ export default {
           distance:'1.53km',
           cod:false,
           time:'9AM - 10PM',
-          location:'11 Lor 3 Toa Payoh Level 3 Unit 10 (319579)',
+          location:'2 Sembawang Hills Drive (575881)',
           name:'Angel',
           noOfPackages:1,
           packageID: 'SGNJVAPPDELTRG5'
@@ -297,7 +297,7 @@ export default {
           distance:'1.55km',
           cod:true,
           time:'9AM - 10PM',
-          location:'122 Lor 2 Toa Payoh Level 2 Unit (310122)',
+          location:'122 Jalan Leban (575827)',
           name:'Monica',
           noOfPackages:2,
           packageID: 'SGNJVAPPDELTRG7'
@@ -307,7 +307,7 @@ export default {
           distance:'1.50km',
           cod:false,
           time:'9AM - 10PM',
-          location:'130 Lor 1 Toa Payoh Level 5 Unit 11 (311128)',
+          location:'130 Jalan Leban (575849)',
           name:'Chow',
           noOfPackages:2,
           packageID: 'SGNJVAPPDELTRG8'
@@ -317,7 +317,7 @@ export default {
           distance:'1.62km',
           cod:true,
           time:'9AM - 10PM',
-          location:'15 Lor 3 Toa Payoh Level 6 Unit 3 (319580)',
+          location:'15 Jalan Kuras (575826)',
           name:'Gordon',
           noOfPackages:1,
           packageID: 'SGNJVAPPDELTRG5'
@@ -327,161 +327,13 @@ export default {
           distance:'1.59km',
           cod:false,
           time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
+          location:'99B Jalan Kuras (575810)',
           name:'Lisa',
           noOfPackages:2,
           packageID: 'SGNJVAPPDELTRG6'
         },
-        {
-          id:6,
-          distance:'1.51km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'118 Lor 1 Toa Payoh Level 4 Unit 1 (310118)',
-          name:'Gail',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:7,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'118 Lor 1 Toa Payoh Level 4 Unit 1 (310118)',
-          name:'Gloria',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:8,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:9,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:10,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Angel',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:11,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:12,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:13,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Angel',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:14,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:15,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:16,
-          distance:'1.53km',
-          cod:true,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Angel',
-          noOfPackages:1,
-          packageID: 'SGNJVAPPDELTRG5'
-        },
-        {
-          id:17,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:18,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:19,
-          distance:'1.55km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        },
-        {
-          id:20,
-          distance:'1.50km',
-          cod:false,
-          time:'9AM - 10PM',
-          location:'99B Lor 2 Toa Payoh Level 1 Unit 7 (311099)',
-          name:'Monica',
-          noOfPackages:2,
-          packageID: 'SGNJVAPPDELTRG6'
-        }
+        
+        
 
 
       ],

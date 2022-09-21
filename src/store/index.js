@@ -20,6 +20,10 @@ export default function (/* { ssrContext } */) {
       // example
     },
 
+    state:{
+      completed:false
+    },
+
     // enable strict mode (adds overhead!)
     // for dev mode only
     strict: process.env.DEBUGGING
